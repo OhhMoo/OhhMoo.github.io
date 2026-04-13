@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #faf8f5;
+  --color-surface: #f2efe9;
+  --color-border: #e2ddd6;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #5e5e5e;
+  --color-accent: #1a56db;
+  --color-muted: #9a9a9a;
+
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+}
+
+html {
+  background-color: #faf8f5;
+  color: #1a1a1a;
+  scroll-behavior: smooth;
+  cursor: none;
+}
+
+/* Restore cursor on touch devices — custom cursor is mouse-only */
+@media (pointer: coarse) {
+  html {
+    cursor: auto;
+  }
+}
+
+body {
+  background-color: #faf8f5;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #1a56db22;
+}
+
+a {
+  color: #1a56db;
+  text-decoration: none;
+  cursor: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button, input[type="range"] {
+  cursor: none;
+}
