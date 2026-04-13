@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Michael Yao",
   description:
     "Personal portfolio of Michael Yao — computational chemistry, AI tooling, and scientific software.",
-  icons: { icon: "/logo.svg" },
+  icons: { icon: "/favicon-cube.svg" },
 };
 
 export default function RootLayout({

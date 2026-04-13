@@ -66,7 +66,7 @@ export function Nav() {
           }}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.svg" alt="logo" style={{ width: "28px", height: "28px", borderRadius: "4px" }} />
+          <img src="/logo.svg" alt="logo" style={{ width: "48px", height: "48px", borderRadius: "4px" }} />
           <span style={{
             fontFamily: "var(--font-display)",
             fontSize: "18px",
