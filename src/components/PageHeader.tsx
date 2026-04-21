@@ -139,7 +139,7 @@ export function PageHeader() {
           I&apos;m a student at Harvey Mudd working at the intersection of
           computational chemistry and machine learning. I build tools that help
           scientists move faster (agentic spectroscopy and GNN-powered mass spec
-          predictors) and make CMC changes easier to document and classify.
+          predictors).
         </p>
 
         <p
@@ -150,9 +150,9 @@ export function PageHeader() {
             fontFamily: "var(--font-body)",
           }}
         >
-          When I&apos;m not building software, I&apos;m researching why water is
-          weird (structural heterogeneity) and trying to peek inside the
-          &ldquo;black box&rdquo; of reinforcement learning.
+          When I&apos;m not building software and models, I&apos;m researching
+          why water is weird and trying to peek inside the &ldquo;black
+          box&rdquo; of reinforcement learning.
         </p>
       </div>
 

@@ -11,7 +11,11 @@
       "Bash(cp \"C:/Users/OhhMoo/Documents/xwechat_files/wxid_fsbvfclirzq812_ccae/temp/RWTemp/2026-04/9e20f478899dc29eb19741386f9343c8/4b4069b32958a42ff1fb45d676a10977.jpg\" \"C:/Users/OhhMoo/Desktop/git_repo/website/public/images/photos/cafe.jpg\")",
       "Bash(cp \"C:/Users/OhhMoo/Documents/xwechat_files/wxid_fsbvfclirzq812_ccae/temp/RWTemp/2026-04/9e20f478899dc29eb19741386f9343c8/6670e1c4e2071e121398c1fd769a4688.jpg\" \"C:/Users/OhhMoo/Desktop/git_repo/website/public/images/photos/outside.jpg\")",
       "Bash(cp \"C:/Users/OhhMoo/Documents/xwechat_files/wxid_fsbvfclirzq812_ccae/temp/RWTemp/2026-04/9e20f478899dc29eb19741386f9343c8/5a40e6d842f871078a64f3f7f1959ef3.jpg\" \"C:/Users/OhhMoo/Desktop/git_repo/website/public/images/photos/group-restaurant.jpg\")",
-      "Bash(cp \"C:/Users/OhhMoo/Documents/xwechat_files/wxid_fsbvfclirzq812_ccae/temp/RWTemp/2026-04/9e20f478899dc29eb19741386f9343c8/1cbc2530c36fef66e948f23cec8f9483.jpg\" \"C:/Users/OhhMoo/Desktop/git_repo/website/public/images/photos/restaurant.jpg\")"
+      "Bash(cp \"C:/Users/OhhMoo/Documents/xwechat_files/wxid_fsbvfclirzq812_ccae/temp/RWTemp/2026-04/9e20f478899dc29eb19741386f9343c8/1cbc2530c36fef66e948f23cec8f9483.jpg\" \"C:/Users/OhhMoo/Desktop/git_repo/website/public/images/photos/restaurant.jpg\")",
+      "Bash(gh repo *)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -sI https://langalpha.com/)",
+      "Bash(curl -sIL https://langalpha.com/)"
     ]
   }
 }

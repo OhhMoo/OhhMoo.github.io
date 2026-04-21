@@ -101,7 +101,7 @@ export function About() {
               <p style={{ fontSize: "17px", lineHeight: "1.7", color: "#1a1a1a", fontFamily: "var(--font-body)", margin: 0 }}>
                 <strong style={{ fontWeight: 600 }}>Researching Atoms</strong> — running
                 large-scale MD simulations under{" "}
-                <strong style={{ fontWeight: 600 }}>Prof. Bilin Zhuang</strong> at Harvey Mudd,
+                <strong style={{ fontWeight: 600 }}>Prof. Bilin Zhuang</strong>,
                 studying structural heterogeneity in supercooled water with UMAP, HDBSCAN, and GMM clustering.
               </p>
             </li>
@@ -109,18 +109,16 @@ export function About() {
               <span style={{ color: "#1a56db", fontFamily: "var(--font-mono)", fontSize: "14px", marginTop: "3px", flexShrink: 0 }}>→</span>
               <p style={{ fontSize: "17px", lineHeight: "1.7", color: "#1a1a1a", fontFamily: "var(--font-body)", margin: 0 }}>
                 <strong style={{ fontWeight: 600 }}>Interpreting RL</strong> — researching
-                mechanistic interpretability of reinforcement learning at{" "}
-                <strong style={{ fontWeight: 600 }}>Algoverse</strong>, training Sparse
-                Autoencoders (SAELens, BatchTopK) and tracking representational drift across
-                PPO training checkpoints.
+                mechanistic interpretability of reinforcement learning, training Sparse
+                Autoencoders and tracking representational drift.
               </p>
             </li>
             <li style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
               <span style={{ color: "#1a56db", fontFamily: "var(--font-mono)", fontSize: "14px", marginTop: "3px", flexShrink: 0 }}>→</span>
               <p style={{ fontSize: "17px", lineHeight: "1.7", color: "#1a1a1a", fontFamily: "var(--font-body)", margin: 0 }}>
                 <strong style={{ fontWeight: 600 }}>Exploring GNNs</strong> — actively learning
-                graph neural networks (CS224W), migrating MS/MS fragmentation prediction models
-                (ICEBERG) from DGL to PyTorch Geometric.
+                graph neural networks, currently working on migrating MS/MS fragmentation
+                prediction models (ICEBERG) from DGL to PyTorch Geometric.
               </p>
             </li>
           </ul>

@@ -33,6 +33,19 @@ export const projects: Project[] = [
     ],
   },
   {
+    id: "langalpha",
+    title: "LangAlpha",
+    tagline: "AI investment research agent harness",
+    description:
+      "Persistent agent system for financial research where work compounds across sessions in dedicated sandbox workspaces, each with an agent.md memory file. Uses Programmatic Tool Calling (PTC) — the agent writes code to process market data locally instead of flooding LLM context. Ships 23 pre-built finance skills (DCF, earnings, comps, morning notes), a parallel subagent swarm with live steering, multi-provider LLM failover, and per-workspace encrypted secret vaults.",
+    techStack: ["Python", "FastAPI", "LangGraph", "React", "PostgreSQL", "Daytona"],
+    links: [
+      { label: "GitHub", href: "https://github.com/ginlix-ai/LangAlpha" },
+      { label: "Live site", href: "https://langalpha.com/" },
+    ],
+    featured: true,
+  },
+  {
     id: "water-clustering",
     title: "Water Clustering",
     tagline: "Supercooled water structural analysis pipeline",
@@ -48,30 +61,12 @@ export const projects: Project[] = [
   },
   {
     id: "sae-rl",
-    title: "SAE-RL",
+    title: "SAE Research",
     tagline: "Mechanistic interpretability of reinforcement learning",
     description:
       "End-to-end pipeline for mechanistic interpretability of RL-trained models: PPO fine-tuning (verl), activation caching, Sparse Autoencoder training (SAELens, BatchTopK), and automated feature analysis across training checkpoints. Developed feature lifecycle analysis (born/died/stable features) and decoder cosine similarity tracking to quantify representational drift during RL training.",
     techStack: ["Python", "PyTorch", "SAELens", "verl", "PPO", "Sparse Autoencoders"],
     links: [{ label: "GitHub", href: "https://github.com/OhhMoo/sae_rl" }],
-  },
-  {
-    id: "pacmc",
-    title: "PACMC",
-    tagline: "CMC Regulatory Change Agent",
-    description:
-      "Agent pipeline for classifying pharmaceutical CMC regulatory changes across FDA, EMA, and PMDA simultaneously. Built on deterministic decision trees encoded from regulatory guidance — not RAG — resolving cross-jurisdictional interactions that no single document addresses. Replaces months of manual review with structured, auditable output.",
-    techStack: ["Python", "RAG", "Decision Trees", "FastAPI"],
-    links: [{ label: "GitHub", href: "https://github.com/OhhMoo/PACMC" }],
-  },
-  {
-    id: "p-pinpoint",
-    title: "P-Pinpoint",
-    tagline: "AI-powered business location recommender",
-    description:
-      "Describe your business in plain English. Pinpoint scores all 50 US states against real BEA economic data and returns ranked location recommendations with explanations — all from a terminal CLI.",
-    techStack: ["Python", "BEA Data", "CLI"],
-    links: [{ label: "GitHub", href: "https://github.com/OhhMoo/P-Pinpoint" }],
   },
   {
     id: "iceberg-pyg",
